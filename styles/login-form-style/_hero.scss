@@ -1,0 +1,9 @@
+@import "./variables";
+@import "../universal-variables";
+#hero{
+    background-image:$hero-background;
+    width:100%;
+    img{
+        margin:10px 20px;
+    }
+}

@@ -1,0 +1,421 @@
+@font-face {
+  font-family: Quicksand-VariableFont;
+  src: url("\\quantum-screen-assets\\Quicksand font 1\\Quicksand-VariableFont_wght.ttf");
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.contact p {
+  color: #1F7A54;
+  padding: 5px;
+}
+
+@font-face {
+  font-family: Quicksand-VariableFont;
+  src: url("\\quantum-screen-assets\\Quicksand font 1\\Quicksand-VariableFont_wght.ttf");
+}
+
+.footer {
+  background-color: #E0E1E1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #616161;
+  margin-bottom: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer * {
+  padding: 8px;
+}
+
+.footer .company-name {
+  font-weight: bold;
+}
+
+.footer .divider {
+  font-size: 24px;
+}
+
+.divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #0000001F;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@font-face {
+  font-family: Quicksand-VariableFont;
+  src: url("\\quantum-screen-assets\\Quicksand font 1\\Quicksand-VariableFont_wght.ttf");
+}
+
+html, body {
+  margin: 0;
+  background: #EEEEEE;
+  font-family: Quicksand-VariableFont;
+}
+
+#hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 56px;
+  background-image: url("\\quantum-screen-assets\\header-pattern-image.png");
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#hero .quantum-logo {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#hero .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  margin-top: 11px;
+}
+
+#hero ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  color: #3FD28B;
+}
+
+#hero ul li {
+  padding: 8px;
+}
+
+#hero ul li p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #2A7FF3;
+  padding: 5px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  position: relative;
+  left: -10px;
+  bottom: 10px;
+}
+
+#hero ul li:first-child {
+  color: #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
+}
+
+#hero ul .hidden {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero ul #notifications, #hero ul #announcements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#hero .hamburger {
+  display: none;
+}
+
+.container {
+  width: 975px;
+  display: block;
+  margin: 35px auto 0px auto;
+}
+
+.top-toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #8DDC97;
+}
+
+.top-toggle .toggle-titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 2px;
+}
+
+.top-toggle .toggle-titles .title {
+  display: block;
+  margin: auto 0px auto 0px;
+}
+
+.top-toggle .toggle-titles .available-number {
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.top-toggle .toggle-titles img {
+  width: 40px;
+}
+
+.top-toggle .toggle-titles > * {
+  padding: 4px;
+  text-transform: capitalize;
+  font-weight: medium;
+}
+
+.top-toggle #courses {
+  border-bottom: 4px solid #222222;
+}
+
+.page-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.page-detail .subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #686868;
+}
+
+.page-detail .sort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-detail .sort * {
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.page-detail .sort img {
+  margin-bottom: 0;
+  padding-left: 25px;
+}
+
+.page-detail .sort-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.page-detail .sort-search img {
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+}
+
+.page-detail .sort-search p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 50px;
+  margin: 0px 0px 0px 2px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.card {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 25px;
+  -ms-grid-columns: 5fr 5fr;
+      grid-template-columns: 5fr 5fr;
+  -ms-grid-rows: 5fr 5fr;
+      grid-template-rows: 5fr 5fr;
+  margin-top: 20px;
+}
+
+.card * {
+  background-color: #FFFFFF;
+}
+
+.card .grid-item {
+  padding: 5% 2% 2% 5%;
+}
+
+.card .course-Physics2 .top .info .teacher {
+  color: rgba(34, 34, 34, 0.4);
+}
+
+.card .course-Physics2 .manage, .card .course-Physics2 .grade-submission, .card .course-Biology .manage, .card .course-Biology .grade-submission {
+  opacity: 40%;
+}
+
+.card .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.card .top .info {
+  padding: 0 2%;
+  width: 100%;
+}
+
+.card .top .info .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card .top .info .subject-grade {
+  font-size: 12px;
+  color: #666666;
+  margin: 2% 0%;
+}
+
+.card .top .info .subject-grade .subject-grade-divider {
+  color: rgba(0, 0, 0, 0.12);
+  margin: 1%;
+}
+
+.card .top .info .subject-grade .highlight {
+  color: #1f7a54;
+}
+
+.card .top .info .contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  color: #666666;
+  margin: 3% 0%;
+}
+
+.card .top .info .contents .units, .card .top .info .contents .lessons, .card .top .info .contents .topics {
+  margin-right: 5%;
+}
+
+.card .top .info .contents .bold {
+  color: #222222;
+  font-weight: bold;
+  margin-right: 3%;
+}
+
+.card .top .info .teacher {
+  margin-right: 8%;
+  padding-top: 3%;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+.card .top .info .student-date {
+  margin: 3% 0%;
+  font-size: 12px;
+  color: #666666;
+}
+
+.card .manage-course {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 6% 8% 1% 8%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  #hero {
+    width: 100%;
+  }
+  .hidden {
+    display: none;
+  }
+  .hamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container {
+    width: 100%;
+  }
+  .top-toggle {
+    margin: auto 25px auto 25px;
+  }
+  .page-detail {
+    margin: auto 25px auto 25px;
+  }
+  .card {
+    width: 70%;
+    padding: 0% 20%;
+    -ms-grid-columns: 10fr;
+        grid-template-columns: 10fr;
+    -ms-grid-rows: 10fr 10fr 10fr 10fr;
+        grid-template-rows: 10fr 10fr 10fr 10fr;
+  }
+}
+/*# sourceMappingURL=style.css.map */

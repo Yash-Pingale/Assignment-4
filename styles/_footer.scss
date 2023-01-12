@@ -1,0 +1,21 @@
+@import "./universal-variables";
+
+.footer{
+    background-color: $footer-backgound;
+    display: flex;
+    justify-content: center;
+    color: $footer-color;
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    *{
+        padding:8px;
+    }
+    .company-name{
+        font-weight: bold;
+    }
+    .divider{
+        font-size: 24px;
+    }
+}

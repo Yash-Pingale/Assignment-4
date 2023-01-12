@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Quicksand-VariableFont;
+    src: url("\\quantum-screen-assets\\Quicksand font 1\\Quicksand-VariableFont_wght.ttf");
+}
+
+html,body{
+    margin:0;
+    background: #EEEEEE;
+    font-family: Quicksand-VariableFont;
+}
+
+#hero{
+    height: 56px;
+    background-image: url("\\quantum-screen-assets\\header-pattern-image.png");
+    border-bottom: 3px solid #31B9E4;
+}
+
+.quantum-logo{
+    margin:10px 20px;
+}
+
+.login-form{
+    width:488px;
+    display: block;
+    margin: 50px auto 0px auto;
+    background: #ffffff;
+    border-top: 5px solid #3AC7EC;
+    border-radius: 2px;
+    padding: 20px;
+    
+
+}
+
+.back-arrow{
+    display:block;
+    float: left;
+    
+}
+
+.login-form-title{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    margin-top: 0%;
+}
+
+.options{
+    display: flex;
+}
+
+.radio-button{
+    margin-right: 10px;
+}
+
+.label-for-radio{
+    margin-right: 50px;
+}
+
+.label-for-input{
+    color: #666666;
+    line-height: 15px;
+}
+
+.label-for-input>p{
+    margin-bottom: 8px;
+}
+
+.user-input{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 5px;
+}
+.user-input>p{
+    margin: 0;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.username-password{
+    color:#666666;
+}
+
+.forgot-credentials{
+    text-transform: uppercase;
+    color: #1F7A54;
+    float:right;
+}
+
+.forgot-credentials>p{
+    margin: 2px auto;
+}
+
+.remember-me{
+    display:flex;
+}
+
+.remember-me>img{
+    margin-right: 5px;;
+}
+
+.login-button{
+    width:100%;
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+}
+
+.login-button>button{
+    width: 215px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: #3FD28B;
+    border: none;
+}
+
+.contact{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact>p{
+    color: #1F7A54;
+    padding: 5px;
+}
+
+.divider{
+    display: flex;
+    color: #0000001F;
+    align-items: center;
+}
+
+.footer{
+    background-color: #E0E1E1;
+    display: flex;
+    justify-content: center;
+    color: #616161;
+    margin-bottom: 0;
+}
+
+.footer>*{
+    padding:8px;
+}
+
+.footer>.company-name{
+    font-weight: bold;
+}
+
+.footer>.divider{
+    font-size: 24px;
+}

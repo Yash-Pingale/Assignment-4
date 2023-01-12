@@ -1,0 +1,14 @@
+@import "./variables";
+@import "./hero";
+@import "./login-form";
+@import "../divider";
+@import "../contact";
+@import "../footer";
+
+html,body{
+    margin:0;
+    background: $background;
+    font-family: $font;
+}
+
+

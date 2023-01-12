@@ -1,0 +1,185 @@
+@font-face {
+  font-family: Quicksand-VariableFont;
+  src: url("\\quantum-screen-assets\\Quicksand font 1\\Quicksand-VariableFont_wght.ttf");
+}
+
+#hero {
+  background-image: url("\\quantum-screen-assets\\header-pattern-image.png");
+  width: 100%;
+}
+
+#hero img {
+  margin: 10px 20px;
+}
+
+.login-form {
+  width: 488px;
+  display: block;
+  margin: 50px auto 0px auto;
+  background: #ffffff;
+  border-top: 5px solid #3AC7EC;
+  border-radius: 2px;
+  padding: 20px;
+}
+
+.login-form-header img {
+  float: left;
+}
+
+.login-form-header .login-form-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-form-header .login-form-title h2 {
+  margin-top: 0%;
+}
+
+.options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.options img {
+  margin-right: 10px;
+}
+
+.options p {
+  margin-right: 50px;
+}
+
+.details .label-for-input {
+  color: #666666;
+  line-height: 15px;
+}
+
+.details .user-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  padding-bottom: 5px;
+}
+
+.details .user-input p {
+  margin: 0;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.details .user-input .username-password {
+  color: #666666;
+}
+
+.details .forgot-credentials p {
+  text-transform: uppercase;
+  color: #1F7A54;
+  float: right;
+  margin: 8px auto;
+}
+
+.details .remember-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.details .remember-me img {
+  margin-right: 5px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-button button {
+  width: 215px;
+  height: 40px;
+  text-transform: uppercase;
+  background-color: #3FD28B;
+  border: none;
+}
+
+.divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #0000001F;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@font-face {
+  font-family: Quicksand-VariableFont;
+  src: url("\\quantum-screen-assets\\Quicksand font 1\\Quicksand-VariableFont_wght.ttf");
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.contact p {
+  color: #1F7A54;
+  padding: 5px;
+}
+
+@font-face {
+  font-family: Quicksand-VariableFont;
+  src: url("\\quantum-screen-assets\\Quicksand font 1\\Quicksand-VariableFont_wght.ttf");
+}
+
+.footer {
+  background-color: #E0E1E1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #616161;
+  margin-bottom: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer * {
+  padding: 8px;
+}
+
+.footer .company-name {
+  font-weight: bold;
+}
+
+.footer .divider {
+  font-size: 24px;
+}
+
+html, body {
+  margin: 0;
+  background: #EEEEEE;
+  font-family: Quicksand-VariableFont;
+}
+/*# sourceMappingURL=style.css.map */

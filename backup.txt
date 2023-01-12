@@ -1,0 +1,142 @@
+<div class="course-image">
+    <img src="\quantum-screen-assets\images\imageMask.png" />
+</div>
+<div class="info">
+    <p class="topic">
+        Acceleration&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img
+            class="favourite"
+            src="\quantum-screen-assets\icons\favourite.svg"
+        />
+    </p>
+    <p class="subject-grade">
+        Physics <span class="divider">|</span> Grade 7
+        <span class="highlight">+2</span>
+    </p>
+    <p class="index">
+        <span><span class="bold">4</span> Units</span>
+        <span><span class="bold">18</span> Lessons</span>
+        <span><span class="bold">24</span> Topics</span>
+    </p>
+    <p class="professor">
+        Mr. Frank's Class B
+        <img
+            class="down-arrow"
+            src="\quantum-screen-assets\icons\arrow-down.svg"
+        />
+    </p>
+    <p class="student-date">
+        50 Students <span class="divider">|</span> 21-Jan-2020 -
+        21-Aug-2020
+    </p>
+</div>
+
+<div class="course-image">
+    <img src="\quantum-screen-assets\images\imageMask-1.png" />
+</div>
+<div class="info">
+    <p class="topic">
+        Displacement, Velocity and <br />Speed
+        <img
+        class="favourite"
+        id="dvs-favourite"
+        src="\quantum-screen-assets\icons\favourite.svg"
+        />
+    </p>
+    <p class="subject-grade">
+        Physics 2 <span class="divider">|</span> Grade 6
+        <span class="highlight">+3</span>
+    </p>
+    <p class="index">
+        <span><span class="bold">2</span> Units</span>
+        <span><span class="bold">15</span> Lessons</span>
+        <span><span class="bold">20</span> Topics</span>
+    </p>
+    <p class="no-classes">
+        No Classes
+        <img
+            class="down-arrow"
+            src="\quantum-screen-assets\icons\arrow-down.svg"
+        />
+    </p>
+</div>
+
+ <div class="course-image">
+    <img src="\quantum-screen-assets\images\imageMask-3.png" />
+</div>
+<div class="info">
+    <p class="topic">
+        Introduction to Biology: Micro organisms and how they affec...
+        <img
+            class="favourite"
+            src="\quantum-screen-assets\icons\favourite.svg"
+        />
+    </p>
+    <p class="subject-grade">
+        Biology <span class="divider">|</span> Grade 4
+        <span class="highlight">+1</span>
+    </p>
+    <p class="index">
+        <span><span class="bold">5</span> Units</span>
+        <span><span class="bold">16</span> Lessons</span>
+        <span><span class="bold">22</span> Topics</span>
+    </p>
+    <p class="all-classes">
+        All Classes
+        <img
+        class="down-arrow"
+        src="\quantum-screen-assets\icons\arrow-down.svg"
+        />
+    </p>
+    <p class="student-date">300 Students</p>
+</div>
+
+<div class="course-image">
+    <img src="\quantum-screen-assets\images\imageMask-2.png" />
+</div>
+<div class="info">
+    <p class="topic">Introduction to High School Mathematics</p>
+    <p class="subject-grade">
+        Mathematics <span class="divider">|</span> Grade 8
+        <span class="highlight">+3</span>
+    </p>
+    <p class="professor">
+        Mr. Frank's Class A
+        <img
+        class="down-arrow"
+        src="\quantum-screen-assets\icons\arrow-down.svg"
+        />
+    </p>
+    <p class="student-date">
+        44 Students <span class="divider">|</span> 14-Oct-2019 -
+        20-Oct-2020
+    </p>
+</div>
+
+<p>
+    <img src="\quantum-screen-assets\icons\preview.svg" />
+    <img src="\quantum-screen-assets\icons\manage-course.svg"/>
+    <img src="\quantum-screen-assets\icons\grade-submissions.svg" />
+    <img src="\quantum-screen-assets\icons\reports.svg" />
+</p>
+
+<p>
+    <img src="\quantum-screen-assets\icons\preview.svg" />
+    <img class="disable" src="\quantum-screen-assets\icons\manage-course.svg"/>
+    <img class="disable" src="\quantum-screen-assets\icons\grade-submissions.svg"/>
+    <img src="\quantum-screen-assets\icons\reports.svg" />
+</p>
+
+<p>
+    <img src="\quantum-screen-assets\icons\preview.svg" />
+    <img class="disable" src="\quantum-screen-assets\icons\manage-course.svg"/>
+    <img class="disable" src="\quantum-screen-assets\icons\grade-submissions.svg"/>
+    <img src="\quantum-screen-assets\icons\reports.svg" />
+</p>
+
+<p>
+    <img src="\quantum-screen-assets\icons\preview.svg" />
+    <img src="\quantum-screen-assets\icons\manage-course.svg"/>
+    <img src="\quantum-screen-assets\icons\grade-submissions.svg" />
+    <img src="\quantum-screen-assets\icons\reports.svg" />
+</p>

@@ -1,0 +1,11 @@
+@import "./universal-variables";
+
+.contact{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    p{
+        color: $contact-color;
+        padding: 5px;
+    }
+}
